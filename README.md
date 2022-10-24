@@ -6,6 +6,7 @@ P4-DGAD is a technique to detect Domain Generation Algorithms (DGAs) in the P4-p
 
 # Dataset
 For this work, we use two datasets: 
+
   1- Pcap of DGAs executed in a contained environment. Each malware sample outputs at least one NXD, and the NXD domain name is checked with DGArchive to be mAGD. 
   
   2- For representing network behavior of normal users, we use CTU-13 dataset (https://www.stratosphereips.org/datasets-ctu13) and we filter the IPs corresponding to the botnets. Thus, the final dataset includes traffic behavior of normal users within the campus. 
