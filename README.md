@@ -14,4 +14,5 @@ For this work, we use two datasets:
 
 # Codes
   1- P4 code/P4-DGA.p4: The P4 program that parses the whole domain name of NXDs, extracts the network features, as well as the statistical and structural features of the domain name. The program also includes sending these features to the control plane via message digests.
+  
   2- P4-DGA Python/P4-DGAD-CP.py: the control plane corresponding to the P4 program.
